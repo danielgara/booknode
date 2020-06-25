@@ -1,0 +1,13 @@
+- Introduce express un framework para trabajar JavaScript en el lado del servidor (trabaja con nodeJS) (que mejora NodeJS)
+- Dice que las librerias ahora se podran cargar desde npm, y no manualmente con los require
+- Dice que las librerias de npm las podemos encontrar en npmjs.com
+- Para crear el package.json damos npm init y respondemos las preguntas
+- Luego instalamos express (npm install express) -> creara node_modules folder
+- Aunque solo instalamos express, vemos un monton de librerias adicionales en node_modules, esto se debe a que son dependencias que requiere express
+- Si queremos ver toda la lista de dependencias o librerias exactas que baja nuestro proyecto, debemos mirar el package-lock.json
+- Info sobre const en javascript "https://stackoverflow.com/questions/34732630/all-caps-constants-in-javascript-and-requireds-and-imports"
+- Explica el routing en express
+- Explica los llamados asincronos con los callback. Dice que el index.js se esta ejecutando siempre y recibe llamados asincronos y pasa por las rutas correspondientes. 
+(REVISAR - NO ENTENDI) No como php que ejecuta los archivos siempre en orden lineal, por lo tanto dice que express es mas rapido.
+- Explica como incluir imagenes, css, etc.
+- Despliega la aplicación con CSS y JS.

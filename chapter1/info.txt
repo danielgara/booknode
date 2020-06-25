@@ -1,0 +1,7 @@
+- Este capitulo enseña que es node.js. Un motor que permite correr código JavaScript en el lado del servidor.
+- Comandos interesantes (i) node -v (ii) npm -v
+- Muestra un ejemplo de un programa en node.js con JavaScript (index.js). Para correrlo basta con usar el comando: node index.js
+- Luego ir a localhost:3000/
+- Muestra como añadir dependencias (librerias) utilizando require.
+- Muestra como responder a diferentes peticiones desde diferentes urls. Y como retornar una respuesta.
+- Muestra como crear vistas en HTML e invocarlas desde el controlador.

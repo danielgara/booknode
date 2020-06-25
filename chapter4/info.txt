@@ -1,0 +1,11 @@
+- Trata sobre template engines
+- Algunos templates: Handlebars, Pug, EJS.
+- EJS Embedded JavaScript. Creado por la gente que creo express.
+- Objetivo de todos los templates engines: output HTML
+- Tags EJS <%= %>
+- Se cambian las extensiones de las vistas a .EJS
+- Ahora las vistas se guardan en la carpeta "views"
+- Se incluye el paquete EJS en el controlador
+- Describen el concepto de layouts
+- Los scripts se guardan en archivo separado
+- Se define layout con header, footer, navbar, y scripts

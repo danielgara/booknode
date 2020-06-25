@@ -1,0 +1,7 @@
+- Introduce mongo, que parece una protesta sobre SQL.
+- Dice que mongo se basa en colleciones (tablas), y documentos (filas).
+- Se parecen a jsons, aunque realmente son BSON, binary jsons.
+- (PARECE que no se necesita) Se instala mongo con el descargable, y luego se crea la carpeta c:/data/db/
+- Se utiliza mongo compass para ver graficamente los datos de la base de datos (especie de phpmyadmin)
+- Se crea la carpeta modelos, allí se crea el modelo blogpost, y se define la estructura del documento (de las filas), que luego será utilizada para definir la colección (tabla en plural)
+- Luego creamos el archivo test.js donde probamos la creación de un documento (fila)

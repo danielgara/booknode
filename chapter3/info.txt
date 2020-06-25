@@ -1,0 +1,9 @@
+- Descargar un tema de blog https://startbootstrap.com/themes/clean-blog/ (bootstrap)
+- Explica como automaticamente reiniciar el servidor con nodemon
+- Nodemon se instala con npm install nodemon -save-dev
+- Hay que poner el save por que si no, no aparece en el package.json
+- Se le coloca el -dev para indicar que solo va en desarrollo
+- Enseñan como agregar un comando de script en el package.json, para correr la apliación ahora con npm start, que internamente corre nodemon
+- Enseñan como agregar las vistas en una carpeta que se llama pages
+- Enseñan como agregar algunos de los archivos de bootstrap en public
+- Enseñan como cambiar las rutas href
