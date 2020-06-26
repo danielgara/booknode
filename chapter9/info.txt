@@ -1,1 +1,7 @@
 - Tema principal MVC
+- Ahora si empieza lo interesante, NO todo debe ir en el mega index
+- Se crea la carpeta controllers
+- Se crean controladores por cada ruta (no se agrupan como nosotros lo haciamos)
+- El index se despeja, queda mucho mas limpio
+- La validación se mueve a una carpeta middleware 
+- El proyecto queda en formato MVC
