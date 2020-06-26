@@ -1,0 +1,7 @@
+- Trata tema de middlewares
+- Dice que todos los app.use son middlewares, y que se ejecutan en orden.
+- Por lo general los middlewares hacen cambios intermedios a las request y las response
+- Por ejemplo al utilizar el app.use(fileUpload()) se hacen unas modificaciones al request y añade las propiedades en request.files (sin esa modificación seria muy dificil)
+- Muestra un ejemplo de como crear un middleware personalizado.
+- Hacen un ejemplo de validación de los campos de la creación del post a punta de middleware, ¿será la mejor opción?
+- Se coloca el middleware en el super index y se coloca la ruta a la cual aplica app.use("/posts/store",validateMiddleware). Ya el index es un rutas, control, validador, middleware definition, etc.

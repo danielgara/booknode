@@ -3,6 +3,7 @@ const path = require("path")
 const ejs = require("ejs")
 const mongoose = require("mongoose")
 const bodyParser = require("body-parser")
+const fileUpload = require("express-fileupload")
 const BlogPost = require("./models/BlogPost")
 
 mongoose.connect("mongodb://localhost/mongo",{useNewUrlParser:true, useUnifiedTopology: true})
@@ -12,6 +13,7 @@ app.set("view engine","ejs")
 app.use(express.static("public"))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
+app.use(fileUpload())
 
 /*app.get('/', function (req, res) {
     res.render("index")
@@ -48,9 +50,20 @@ app.get('/posts/new', function (req, res) {
     res.redirect("/")
 })*/
 
-app.post('/posts/store', async (req, res) => {
-    await BlogPost.create(req.body)
-    res.redirect("/")
+app.post('/posts/store', function (req, res) {
+    let image = req.files.image;
+    image.mv(path.resolve(__dirname,"public/img", image.name), async function
+        (error) {
+            await BlogPost.create({
+                title: req.body.title,
+                body: req.body.body,
+                username: req.body.username,
+                image: "img/"+image.name
+            })
+            res.redirect("/")
+        }
+    )
+    // ¿por que crear el post "dentro" de la función mv? ¿no seria mejor después?
 })
 
 app.listen(3000)

@@ -1,1 +1,10 @@
-- 
+- Este capitulo trata sobre carga de imagenes
+- Toca instalar libreria express-fileupload
+- Se utiliza path y la función mv para mover la imagen a la carpeta public/imagen
+- Se agrega image al modelo
+- Se modificar el controlador y la vista y se ven las imagenes propias de los posts en la sección "post"
+
+PREGUNTAS:
+- diferencia entre let y const. Ejemplo el código muestra let para capturar la imagen que se envia, pero acá usan const https://flaviocopes.com/how-to-handle-file-uploads-node/
+- ¿por que crear el post "dentro" de la función mv (dentro de la supuesta función de error)? ¿no seria mejor después?
+- cuando se modifica el schema algunos datos anteriores quedan sin atributo image, pero los nuevos si quedan con atributo image ¿está bien?
