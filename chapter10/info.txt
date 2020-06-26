@@ -1,1 +1,10 @@
 - Tema principal registro de usuarios
+- Se crea la vista, la ruta y el controlador de registro de usuarios
+- Se crea el modelo usuario con username y password
+- Se instala la libreria bcrypt para encripción de contraseñas
+- Muestra como crear con contraseñas excriptadas (a traves del schema (modelo))
+- Muestra como hacer validaciones con el schema (modelo)
+- Muestra si hay errores como redireccionar (retornar) a la misma pagina
+- Luego siguen con el login
+- Implementan el login, y comparan la contraseña enviada con la versión encriptada.
+- No hay uso de session, por el momento solo validación y redirecciones.
