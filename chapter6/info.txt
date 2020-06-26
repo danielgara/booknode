@@ -4,4 +4,6 @@
 - Se instala la libreria body-parser, para obtener los datos del cliente (post), y verlos en forma de json
 - Luego se utilizar una versión async/await para indicar que no retorne la respuesta, hasta que no cree el post
 - Luego se modifica la ruta home, para recoger la lista de posts de la bd, y enviarla a la vista home
-- También se modificar la vista index
+- También se modifica la vista index
+- Se crea un enlace para ver cada post por separado
+- Se agrega al modelo los campos username y datePosted
