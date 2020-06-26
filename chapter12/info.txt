@@ -1,1 +1,6 @@
 - Tema principal mostrando validaciones de errores
+- Muestra como recoger los errores y mostrarlos por pantalla (guardandolos en session) -> no utilizan flash session (deberian)
+- Efectivamente luego usan los flash session (libreria connect-flash)
+- Explican el proceso de flushing, que es basicamente que los errores de validacion solo estaran disponibles por el proximo ciclo de vida de petición
+- Luego muestran como colocar valores de texto personalizados a los errores (modificando el schema -> modelo) 
+- Luego muestran como persistir los datos para que no se pierdan (utilizando el mismo flash)
