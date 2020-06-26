@@ -1,1 +1,8 @@
 - Tema principal session
+- Se utiliza la libreria express-session
+- Basicamente las sesiones son una forma de saber quien esta logueado, almacenando información en el servidor y en cookies
+- Muestran como guardar datos en session (el user id)
+- Muestran como restringir el acceso a una ruta especifica si no se esta logueado, con req.session.userId
+- Crean un middleware de autenticación, y muestran ejemplo de restricción con middleware y sin middleware
+- Crean un middleware de redirección si ya se esta autenticado (para evitar entrar al login, register)
+- Crean la pagina 404 de no se encontro nada
