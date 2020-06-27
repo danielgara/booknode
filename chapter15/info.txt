@@ -1,0 +1,8 @@
+- Tema principal mongo atlas, base de datos en la nube
+- Toma registrarse en mongodb.com/download-center
+- Luego se crea un cluster gratuito con AWS (por que no toca meter datos de TC), y se pone M0. north virginia
+- Se crea el cluster
+- Se crea un usuario 
+- Se dan privilegios de que pueden acceder desde cualquier parte
+- Luego conectamos mongo nube con mongo compass (para poder ver el contenido y crear la base de datos)
+- Finalmente, modificamos el index.js para conectarnos a la base de datos en la nube

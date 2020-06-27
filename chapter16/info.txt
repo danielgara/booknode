@@ -1,0 +1,8 @@
+- Tema principal, despliegue del proyecto en la nube con keroku
+- Nos registramos en heroku
+- Instalamos local heroku cli
+- Modificamos el proyecto con unos cuantos archivos
+- Creamos una aplicación heroku desde la cli
+- Esos nos da una URL desde la cual podriamos ver la aplicación
+- Para finalizar creamos nuestro proyecto en git, y luego con un comando subimos el proyecto al git de heroku, el cual instala el proyecto en la nube
+- Ruta final https://mysterious-citadel-42591.herokuapp.com/

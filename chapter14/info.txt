@@ -1,1 +1,3 @@
 - Tema principal implementar un WYSIWYG
+- Se requieren unas librerias que solo se deberian desplegar para createpost
+- Se añade el WYSIWYG en create post, y luego se cambia <%= blogpost.body %> por <%- blogpost.body %> para que muestre el código en HTML
