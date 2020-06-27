@@ -1,1 +1,5 @@
 - Tema principal relaciones entre modelos
+- Se modifica el model blogpost, y basicamente se pone una foreana al id del user (se remueve username)
+- Se modifican las vistas, y para enlazar los post con los usuarios se usa (populate) algo asi como el JOIN
+- Se tiene que borrar la colleccion blogpost, desde mongo compass
+- Se modifica tmb el controlador y vista get post, y de esa manera se enseña a enlazar dos colecciones (documentos)
